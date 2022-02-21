@@ -34,7 +34,7 @@ nav .navbar-brand img {
 }
 
 header.header {
-  height: 100vh;
+  height: 90vh;
 }
 
 .text-caption {
@@ -83,6 +83,7 @@ p.desc {
 @media only screen and (max-width: 600px) {
   header.header {
     text-align: center;
+    height: 100vh;
   }
   header.header div.container {
     padding-top: 20px;
@@ -109,9 +110,19 @@ p.desc {
   section.blog .card {
     margin-top: 20px;
   }
+  footer.footer div.container-fluid div:nth-child(odd) {
+    margin-right: 50px;
+  }
 
   footer.footer div.container-fluid div:first-child {
     margin: 30px 0;
+  }
+
+  footer.footer div.container-fluid div:last-child {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 }
 
